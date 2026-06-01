@@ -1,7 +1,15 @@
-void main() {}
+void main() {
+  human mahmoud = human();
+  mahmoud.name = "mahmoud";
+  mahmoud.age = 20;
+  print("my name is ${mahmoud.name} and my age is ${mahmoud.age}");
+  mahmoud.eat();
+}
 
-class Human {
+class human {
   String? name;
   int? age;
-  double? height;
+  void eat() {
+    print("i am eating");
+  }
 }
