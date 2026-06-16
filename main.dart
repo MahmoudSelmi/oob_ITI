@@ -4,6 +4,7 @@ void main() {
   mahmoud.age = 20;
   print("my name is ${mahmoud.name} and my age is ${mahmoud.age}");
   mahmoud.eat();
+  // تعديل
 }
 
 class human {
