@@ -1,5 +1,15 @@
-import 'human.dart';
-
 void main() {
-  human mahmoud = human(name: "mahmoud", age: 20);
+  cat cat1 = cat();
+  cat1.name = "Tom";
+  print(cat1.name);
+  cat1.meow();
 }
+
+class cat {
+  String? name;
+  meow() {
+    print("Meow!");
+  }
+}
+
+class lion extends cat {}
