@@ -1,15 +1,28 @@
-void main() {
-  cat cat1 = cat();
-  cat1.name = "Tom";
-  print(cat1.name);
-  cat1.meow();
-}
+#include <iostream>
 
-class cat {
-  String? name;
-  meow() {
-    print("Meow!");
-  }
-}
+using namespace std;
 
-class lion extends cat {}
+class Employee{
+private:
+string Name;
+string address;
+int age;
+double salary;
+public:
+ void setName(string _Name){
+
+ Name= _Name;
+
+ }
+ string getName(){
+ return Name;
+ } 
+
+};
+
+
+int main()
+{
+Employee emp;
+emp
+}
